@@ -6,3 +6,6 @@ NUM2=200
 SUM=$((NUM1+NUM2))
 
 echo "SUm is : $SUM"
+
+FRUITS=("Apple" "Banana" "Mango")
+echo "Fruits are: ${FRUITS[@]}"
